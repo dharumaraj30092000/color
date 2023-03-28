@@ -1,0 +1,41 @@
+/*----- color -----*/
+p {
+  color: red;
+}
+
+.color h1 {
+  color: #00ff00;
+}
+
+p.ex {
+  color: white;
+  background: rgb(0,0,255);
+}
+/*------ hsl ------*/
+.hsl p{
+	  color: hsl(89, 43%, 51%);
+}
+/*----- rgba -----*/
+.rgba p {
+	color: rgba(201, 76, 76, 0.6);
+}
+/*----- hsla -----*/
+.hsla p {
+	color: hsla(89, 43%, 51%, 0.6);
+}
+/*----- linear-1 -----*/
+.linear-1 {
+	background-image: linear-gradient(red, yellow);
+	height: 200px;
+	margin-bottom: 20px;
+}
+.linear-2 {
+	background-image: linear-gradient(to right,blue, yellow);
+	height: 200px;
+	margin-bottom: 20px;
+}
+.linear-3 {
+	background-image: linear-gradient(90deg,green, yellow);
+	height: 200px;
+	margin-bottom: 20px;
+}
